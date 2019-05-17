@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+    <soapenv:Body>
+        <soapenv:Fault>
+            <faultcode>soapenv:Server</faultcode>
+            <faultstring>Error in operation ea99b59c-5fe3-427d-8786-299f7b7c7ba2: OSB-382510 : OSB Assign action failed updating variable "addOrRemoveBillingOfferTraceMessageInput": {http://www.w3.org/2005/xqt-errors}XPTY0004 [{http://xmlns.oracle.com/xdk/xquery/error}XPTY0004f]: "element {http://telefonica.com/peru/esb/trace}EsbTraceMessage { {http://www.w3.org/2001/XMLSchema}untyped }": bad value for type {http://www.w3.org/2001/XMLSchema}string* - </faultstring>
+            <faultactor/>
+            <detail>
+                <ns2:AddOrRemoveBillingOfferFault xmlns:ns2="http://telefonica.pe/CustomerOrderManagement/OrderServices/V1/types">
+                    <ns2:Error>
+                        <ns1:code xmlns:ns1="http://telefonica.pe/TefError/V1">
+                            <ns1:service>0012</ns1:service>
+                            <ns1:operation>0026</ns1:operation>
+                            <ns1:layer>0002</ns1:layer>
+                            <ns1:tamSystem>000000</ns1:tamSystem>
+                            <ns1:legacySystem>0000</ns1:legacySystem>
+                            <ns1:api>0000</ns1:api>
+                            <ns1:error>0002</ns1:error>
+                        </ns1:code>
+                        <ns1:description xmlns:ns1="http://telefonica.pe/TefError/V1">OSB Assign action failed updating variable "addOrRemoveBillingOfferTraceMessageInput": {http://www.w3.org/2005/xqt-errors}XPTY0004 [{http://xmlns.oracle.com/xdk/xquery/error}XPTY0004f]: "element {http://telefonica.com/peru/esb/trace}EsbTraceMessage { {http://www.w3.org/2001/XMLSchema}untyped }": bad value for type {http://www.w3.org/2001/XMLSchema}string*</ns1:description>
+                        <ns1:details xmlns:ns1="http://telefonica.pe/TefError/V1">
+                            <ns1:timeStamp>2018-09-20T19:03:32.213-05:00</ns1:timeStamp>
+                            <ns1:cause>DOX API OMS: addOrRemoveBillingOffer  errorCode: OSB-382510, reason: OSB Assign action failed updating variable "addOrRemoveBillingOfferTraceMessageInput": {http://www.w3.org/2005/xqt-errors}XPTY0004 [{http://xmlns.oracle.com/xdk/xquery/error}XPTY0004f]: "element {http://telefonica.com/peru/esb/trace}EsbTraceMessage { {http://www.w3.org/2001/XMLSchema}untyped }": bad value for type {http://www.w3.org/2001/XMLSchema}string* - </ns1:cause>
+                        </ns1:details>
+                    </ns2:Error>
+                </ns2:AddOrRemoveBillingOfferFault>
+            </detail>
+        </soapenv:Fault>
+    </soapenv:Body>
+</soapenv:Envelope>

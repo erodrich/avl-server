@@ -5,9 +5,6 @@
  */
 package com.erodrich.util;
 
-import java.io.UnsupportedEncodingException;
-import java.util.Arrays;
-import org.apache.commons.codec.DecoderException;
 import org.apache.commons.codec.binary.Hex;
 
 /**
@@ -24,11 +21,12 @@ public class MainUtil {
 
         
         String inputImei = "01";
+        int hexNum = 0x01;
         
         byte[] bytes = Hex.decodeHex(inputImei.toCharArray());
         
         String outputImei = new String(bytes);
-        System.out.println(outputImei);
+        System.out.println(hexNum);
     
 
     }
